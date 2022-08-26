@@ -5,6 +5,5 @@
     <br />
     <router-link to="/about/posts">bai dang</router-link>
     <router-view></router-view>
-    <h1>This is an about</h1>
   </div>
 </template>
