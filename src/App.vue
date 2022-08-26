@@ -1,13 +1,14 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-link to="/tan-pham">Tan Pham</router-link>
+    <router-link to="/about">About</router-link> | 
+    <router-link to="/tan-pham">Tan Pham</router-link> | 
+    <router-link to="/tan-form" class="btn">Login</router-link>
   </nav>
   <router-view />
 </template>
-
 <style lang="scss">
+@import "assets/sass/style.vue";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
