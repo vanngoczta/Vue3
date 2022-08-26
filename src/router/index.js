@@ -7,6 +7,9 @@ import UserPosts from "@/components/vanngoc/UserPosts.vue";
 import LoginVN from "@/components/vanngoc/LoginVN.vue";
 import RegisterVNVue from "@/components/vanngoc/RegisterVN.vue";
 import HomeView3 from "../views/HomeView3.vue";
+import HomeNews from "../views/HomeNews.vue";
+
+
 
 const routes = [
   {
@@ -89,7 +92,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: HomeView3,
   },
+  {
+    path: "/news",
+    name: "news",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: HomeNews,
+  },
 ];
+
 
 const router = createRouter({
   history: createWebHashHistory(),
