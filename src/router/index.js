@@ -6,6 +6,7 @@ import UserProfile from "@/components/vanngoc/UserProfile.vue";
 import UserPosts from "@/components/vanngoc/UserPosts.vue";
 import LoginVN from "@/components/vanngoc/LoginVN.vue";
 import RegisterVNVue from "@/components/vanngoc/RegisterVN.vue";
+import HomeView3 from "../views/HomeView3.vue";
 
 const routes = [
   {
@@ -77,7 +78,16 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
+
     component: HomeView2,
+  },
+  {
+    path: "/tan-form",
+    name: "tanform",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: HomeView3,
   },
 ];
 

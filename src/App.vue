@@ -9,12 +9,12 @@
     <br />
 
     <router-link to="/van-ngoc">King Of Vue</router-link>
-
+    <router-link to="/tan-form" class="btn">Login</router-link>
   </nav>
   <router-view />
 </template>
-
 <style lang="scss">
+@import "assets/sass/style.vue";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
