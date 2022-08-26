@@ -2,7 +2,7 @@
 
     <a-card hoverable style="width: 100%">
         <template #cover>
-            <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
+            <img alt="example" src="https://picsum.photos/200/300" />
         </template>
         <a-card-meta title="Europe Street beat">
             <template #description>
@@ -11,7 +11,6 @@
                 <div>
                 </div>
             </template>
-
         </a-card-meta>
     </a-card>
 

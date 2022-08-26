@@ -4,8 +4,11 @@
     <h1> Danh mục sản phẩm </h1>
    
     <a-row :gutter="[16,16]">
-      <a-col :span="8" v-for="i in 100" :key="i">
-      <CardProduct/>
+      <a-col :span="8" v-for="(i,index) in 100" :key="i">
+      {{index}}
+      <CardProduct
+      :index="index"
+      />
       </a-col>
 
 
