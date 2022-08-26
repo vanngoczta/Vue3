@@ -10,11 +10,6 @@ import HomeView3 from "../views/HomeView3.vue";
 import HomeNews from "../views/HomeNews.vue";
 
 
-import UserProfile from "@/components/vanngoc/UserProfile.vue";
-import UserPosts from "@/components/vanngoc/UserPosts.vue";
-import LoginVN from "@/components/vanngoc/LoginVN.vue";
-import RegisterVNVue from "@/components/vanngoc/RegisterVN.vue";
-import HomeNews from "../views/HomeNews.vue";
 
 
 
