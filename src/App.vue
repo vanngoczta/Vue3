@@ -4,6 +4,8 @@
     <router-link to="/about">About</router-link> | 
     <router-link to="/tan-pham">Tan Pham</router-link> | 
     <router-link to="/tan-form" class="btn">Login</router-link>
+    <router-link to="/van-ngoc">King Of Vue</router-link>
+
   </nav>
   <router-view />
 </template>
